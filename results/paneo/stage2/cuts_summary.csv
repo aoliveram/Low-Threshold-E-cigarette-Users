@@ -1,0 +1,13 @@
+family,model,tests,sig_above_1,sig_below_1
+Fraction,MA,1120,0,145
+Fraction,MC,1120,7,0
+Fraction,MD,1120,0,115
+Count,MA,736,0,88
+Count,MC,736,4,0
+Count,MD,736,0,65
+Percentile (adopters),MA,842,0,88
+Percentile (adopters),MC,842,4,4
+Percentile (adopters),MD,842,0,71
+Percentile (at risk),MA,864,0,64
+Percentile (at risk),MC,864,10,0
+Percentile (at risk),MD,864,0,49

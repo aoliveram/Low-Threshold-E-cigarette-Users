@@ -1,0 +1,110 @@
+id,base,dim,option,label,paper_like,substitution,amplification,sm_any,protective_nonusers,category
+L2_001_R0_A_A1,R0,A,A1,I,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_002_R0_A_A2,R0,A,A2,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_003_R0_A_A3,R0,A,A3,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_004_R0_A_A4,R0,A,A4,D,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_005_R0_A_A5,R0,A,A5,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_006_R0_U_U1,R0,U,U1,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_007_R0_U_U2,R0,U,U2,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_008_R0_U_U3,R0,U,U3,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_009_R0_U_U4,R0,U,U4,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_010_R0_T_T1,R0,T,T1,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_011_R0_T_T2,R0,T,T2,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_012_R0_T_T3,R0,T,T3,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_013_R0_N_N1,R0,N,N1,Disc,TRUE,FALSE,TRUE,TRUE,FALSE,Supports: as in the paper
+L2_014_R0_N_N2,R0,N,N2,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_015_R0_N_N3,R0,N,N3,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_016_R0_N_N4,R0,N,N4,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_017_R0_I_I0,R0,I,I0,I,TRUE,FALSE,TRUE,TRUE,FALSE,Supports: as in the paper
+L2_018_R0_I_I1,R0,I,I1,D,FALSE,FALSE,TRUE,TRUE,TRUE,Close alternative
+L2_019_R0_I_I3,R0,I,I3,D,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_020_R0_I_I35,R0,I,I35,D,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_021_R0_I_I6,R0,I,I6,D,TRUE,FALSE,TRUE,TRUE,FALSE,Supports: as in the paper
+L2_022_R0_I_I7,R0,I,I7,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_023_R0_I_I2_q0.1,R0,I,I2_q0.1,D,TRUE,FALSE,TRUE,TRUE,FALSE,Supports: as in the paper
+L2_024_R0_I_I2_q0.3,R0,I,I2_q0.3,D,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_025_R0_I_I2_q0.5,R0,I,I2_q0.5,D,FALSE,FALSE,TRUE,TRUE,TRUE,Close alternative
+L2_026_R0_I_I4_f1.5,R0,I,I4_f1.5,D,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_027_R0_I_I4_f2,R0,I,I4_f2,D,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_028_R0_Z_Z1,R0,Z,Z1,I,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_029_R0_Z_Z2,R0,Z,Z2,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_030_R0_Z_Z3,R0,Z,Z3,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_031_R0_S_S1_lag,R0,S,S1_lag,Disc,TRUE,FALSE,TRUE,TRUE,FALSE,Supports: as in the paper
+L2_032_R0_S_S1_cur,R0,S,S1_cur,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_033_R0_S_S2_lag,R0,S,S2_lag,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_034_R0_S_S2_cur,R0,S,S2_cur,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_035_R0_S_S3_lag,R0,S,S3_lag,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_036_R0_S_S3_cur,R0,S,S3_cur,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_037_R0_S_S4_lag,R0,S,S4_lag,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_038_R0_S_S4_cur,R0,S,S4_cur,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_039_R0_S_S5_lag,R0,S,S5_lag,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_040_R0_S_S5_cur,R0,S,S5_cur,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_041_R0_S_S6_lag,R0,S,S6_lag,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_042_R0_S_S6_cur,R0,S,S6_cur,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_043_R0_S_S7_lag,R0,S,S7_lag,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_044_R0_S_S7_cur,R0,S,S7_cur,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_045_R0_S_S8_lag,R0,S,S8_lag,D,FALSE,FALSE,TRUE,TRUE,FALSE,Close alternative
+L2_046_R0_S_S8_cur,R0,S,S8_cur,Disc,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_047_R0_X_X1,R0,X,X1,I,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_048_R0_X_X2,R0,X,X2,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_049_R0_X_X3,R0,X,X3,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_050_R0_X_X4,R0,X,X4,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_051_R0_F_F1,R0,F,F1,I,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_052_R0_F_F2,R0,F,F2,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_053_R0_CL_CL_vid,R0,CL,CL_vid,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_054_R0_CL_CL_record,R0,CL,CL_record,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_055_R0_sample_all,R0,sample,all,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_056_R0_sample_C1,R0,sample,C1,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_057_R0_sample_C2,R0,sample,C2,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_058_R0_sample_no_cap,R0,sample,no_cap,D,FALSE,FALSE,FALSE,FALSE,FALSE,Not informative
+L2_059_R0_typed_W0,R0,typed,W0,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_060_R0_typed_W1,R0,typed,W1,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_061_R0_typed_W2,R0,typed,W2,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_062_R0_typed_W3,R0,typed,W3,D,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_063_H1_A_A1,H1,A,A1,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_064_H1_A_A2,H1,A,A2,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_065_H1_A_A3,H1,A,A3,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_066_H1_A_A4,H1,A,A4,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_067_H1_A_A5,H1,A,A5,I,FALSE,FALSE,FALSE,FALSE,TRUE,Close alternative
+L2_068_H1_U_U1,H1,U,U1,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_069_H1_U_U2,H1,U,U2,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_070_H1_U_U3,H1,U,U3,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_071_H1_U_U4,H1,U,U4,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_072_H1_T_T1,H1,T,T1,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_073_H1_T_T2,H1,T,T2,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_074_H1_T_T3,H1,T,T3,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_075_H1_N_N1,H1,N,N1,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_076_H1_N_N2,H1,N,N2,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_077_H1_N_N3,H1,N,N3,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_078_H1_N_N4,H1,N,N4,I,TRUE,FALSE,TRUE,TRUE,FALSE,Supports: as in the paper
+L2_079_H1_Z_Z1,H1,Z,Z1,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_080_H1_Z_Z2,H1,Z,Z2,I,FALSE,FALSE,TRUE,TRUE,FALSE,Close alternative
+L2_081_H1_Z_Z3,H1,Z,Z3,I,TRUE,FALSE,TRUE,TRUE,FALSE,Supports: as in the paper
+L2_082_H1_S_S1_lag,H1,S,S1_lag,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_083_H1_S_S1_cur,H1,S,S1_cur,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_084_H1_S_S2_lag,H1,S,S2_lag,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_085_H1_S_S2_cur,H1,S,S2_cur,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_086_H1_S_S3_lag,H1,S,S3_lag,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_087_H1_S_S3_cur,H1,S,S3_cur,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_088_H1_S_S4_lag,H1,S,S4_lag,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_089_H1_S_S4_cur,H1,S,S4_cur,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_090_H1_S_S5_lag,H1,S,S5_lag,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_091_H1_S_S5_cur,H1,S,S5_cur,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_092_H1_S_S6_lag,H1,S,S6_lag,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_093_H1_S_S6_cur,H1,S,S6_cur,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_094_H1_S_S7_lag,H1,S,S7_lag,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_095_H1_S_S7_cur,H1,S,S7_cur,I,TRUE,FALSE,FALSE,TRUE,TRUE,Supports: as in the paper
+L2_096_H1_S_S8_lag,H1,S,S8_lag,I,FALSE,FALSE,TRUE,TRUE,TRUE,Close alternative
+L2_097_H1_S_S8_cur,H1,S,S8_cur,I,TRUE,FALSE,FALSE,TRUE,FALSE,Supports: as in the paper
+L2_098_H1_X_X1,H1,X,X1,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_099_H1_X_X2,H1,X,X2,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_100_H1_X_X3,H1,X,X3,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_101_H1_X_X4,H1,X,X4,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_102_H1_F_F1,H1,F,F1,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_103_H1_F_F2,H1,F,F2,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_104_H1_CL_CL_vid,H1,CL,CL_vid,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_105_H1_CL_CL_record,H1,CL,CL_record,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_106_H1_sample_all,H1,sample,all,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_107_H1_sample_C1,H1,sample,C1,I,TRUE,FALSE,TRUE,TRUE,TRUE,Supports: as in the paper
+L2_108_H1_sample_C2,H1,sample,C2,I,FALSE,FALSE,FALSE,FALSE,FALSE,Not informative
+L2_109_H1_sample_no_cap,H1,sample,no_cap,I,FALSE,FALSE,FALSE,FALSE,TRUE,Close alternative
