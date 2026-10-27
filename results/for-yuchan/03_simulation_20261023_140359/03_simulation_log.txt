@@ -1,0 +1,39 @@
+Script: 03_simulation 
+Start time: 2026-10-23 14:03:59.981422 
+Cores used: 8 
+Data: /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_data/ADVANCE_slim_v2.rds 
+
+
+==============================================================================
+Part A. Known-truth simulation (true R = 1.7, 160 data sets per outcome, 20 imputations each)
+==============================================================================
+ outcome                       method true_R mean_R coverage_95 power  sims
+  <char>                       <char>  <num>  <num>       <num> <num> <int>
+      A3 Expected value (recommended)    1.7   1.87        0.96  0.38   160
+      A3          Multiple imputation    1.7   1.60        0.98  0.18   160
+      A4 Expected value (recommended)    1.7   1.78        0.91  0.31   160
+      A4          Multiple imputation    1.7   1.54        0.94  0.11   160
+Reading: the expected value recovers R (mean close to the truth, coverage close to 95%). Multiple imputation
+adds random 0/1 noise to the exposure, which pulls R towards 1 and lowers power.
+
+==============================================================================
+Part B. Power (200 data sets per outcome and R)
+==============================================================================
+ outcome true_R power median_R_hat mean_events  sims
+  <char>  <num> <num>        <num>       <num> <int>
+      A3    1.3  0.12         1.37         269   200
+      A3    1.5  0.26         1.62         268   200
+      A3    1.7  0.36         1.76         268   200
+      A3    2.0  0.54         2.08         265   200
+      A4    1.3  0.17         1.38         131   200
+      A4    1.5  0.26         1.54         130   200
+      A4    1.7  0.29         1.67         129   200
+      A4    2.0  0.49         2.12         128   200
+ outcome starts_now events_for_80pct_at_R1.3
+  <char>      <num>                    <num>
+      A3        269                     2674
+      A4        131                     1538
+
+Outputs written to /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_out/03_simulation_20261023_140359
+
+End time: 2026-10-23 14:06:30.400867 (2.5 minutes)

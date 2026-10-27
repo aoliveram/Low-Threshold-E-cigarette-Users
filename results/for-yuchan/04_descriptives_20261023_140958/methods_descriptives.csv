@@ -1,0 +1,18 @@
+block,item,value
+Named friends (A3 models),visible,"26,385 (55.1%)"
+Named friends (A3 models),nonparticipant,"16,616 (34.7%)"
+Named friends (A3 models),typed,"3,235 (6.8%)"
+Named friends (A3 models),no_answer,"1,634 (3.4%)"
+Named friends (A3 models),"unseen = nonparticipant + typed, %",41.5
+All nominations W4-W8,"unseen, %",43.1
+Non-participant friends,"named by 2 or more students, %",75.3
+Non-participant friends,median students naming each,2
+Named nobody,"W5: report >= 1 close friend, %",78.2
+Named nobody,"W9: report >= 1 close friend, %",73.6
+Social media items,"missing items due to skip logic, %",86.6
+Social media items,S3 Cronbach alpha (6 platforms),0.76
+Social media items,"student-waves answering 1 platform only, %",8.5
+Exposure A3,"starts with E <= 1/4, %",82.4
+Exposure A3,"student-semesters with E = 0, %",22.1
+Exposure A4,"starts with E <= 1/4, %",71.9
+Exposure A4,"student-semesters with E = 0, %",21.8

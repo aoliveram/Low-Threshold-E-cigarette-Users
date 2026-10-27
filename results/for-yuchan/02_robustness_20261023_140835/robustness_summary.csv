@@ -1,0 +1,14 @@
+Check,Variant,"A3: R (95% CI), p","A4: R (95% CI), p"
+Reference,Recommended specification,"1.41 (0.92, 2.18), p = 0.118","1.72 (1.09, 2.73), p = 0.020"
+Unseen friends,School x wave rate only (no homophily),"1.34 (0.85, 2.10), p = 0.208","1.72 (1.01, 2.92), p = 0.047"
+Unseen friends,Network model (logistic),"1.38 (0.89, 2.15), p = 0.155","1.70 (1.04, 2.79), p = 0.035"
+Unseen friends,All unseen friends: 6% used,"1.31 (0.82, 2.11), p = 0.263","1.77 (1.00, 3.14), p = 0.050"
+Unseen friends,All unseen friends: 12% used,"1.21 (0.77, 1.88), p = 0.410","1.69 (0.99, 2.88), p = 0.055"
+Unseen friends,All unseen friends: 20% used,"1.08 (0.71, 1.66), p = 0.714","1.58 (0.96, 2.59), p = 0.073"
+Unseen friends,"Multiple imputation (m = 50), homophily","1.26 (0.73, 2.17), p = 0.402","1.47 (0.87, 2.50), p = 0.151"
+Measurement,"Social media: S1, the paper's average","1.04 (0.79, 1.38), p = 0.767","1.19 (0.89, 1.58), p = 0.241"
+Measurement,Friends' status: used in the past 6 months (U3),"1.41 (0.76, 2.62), p = 0.270","1.66 (0.84, 3.28), p = 0.148"
+Measurement,Covariates measured at t-1 (X3),"1.15 (0.77, 1.72), p = 0.487","1.61 (1.03, 2.53), p = 0.036"
+Model form,Stratified: at most 1 in 7 friends used vs more,"1.36 (0.96, 1.94), p = 0.083","1.38 (0.91, 2.09), p = 0.126"
+Leave one school out,"",10 of 10 with R > 1; 0 of 10 with p < .05; R from 1.33 to 1.60,10 of 10 with R > 1; 9 of 10 with p < .05; R from 1.58 to 2.25
+Leave one semester out,"",6 of 6 with R > 1; 0 of 6 with p < .05; R from 1.29 to 1.61,6 of 6 with R > 1; 5 of 6 with p < .05; R from 1.69 to 1.81

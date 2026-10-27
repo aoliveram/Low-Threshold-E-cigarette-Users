@@ -1,0 +1,140 @@
+Script: 02_robustness 
+Start time: 2026-10-23 14:08:35.958556 
+Cores used: 8 
+Data: /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_data/ADVANCE_slim_v2.rds 
+
+
+==============================================================================
+1. Reference (script 01)
+==============================================================================
+     check                   variant outcome        R      R_lo     R_hi          p events
+    <char>                    <char>  <char>    <num>     <num>    <num>      <num>  <int>
+ Reference Recommended specification      A3 1.411929 0.9164093 2.175385 0.11777530    272
+ Reference Recommended specification      A4 1.721746 1.0873431 2.726287 0.02049814    135
+
+==============================================================================
+2. Leave one school out
+==============================================================================
+ outcome           variant     R  R_lo  R_hi     p events
+  <char>            <char> <num> <num> <num> <num>  <int>
+      A3 without 101 + 201  1.42  0.91  2.24 0.126    237
+      A3       without 102  1.38  0.86  2.23 0.181    265
+      A3       without 103  1.36  0.88  2.09 0.166    267
+      A3       without 104  1.38  0.91  2.09 0.130    248
+      A3       without 105  1.33  0.87  2.05 0.187    257
+      A3       without 106  1.38  0.87  2.20 0.167    260
+      A3       without 107  1.40  0.89  2.22 0.144    252
+      A3 without 112 + 212  1.48  0.90  2.42 0.124    211
+      A3 without 113 + 213  1.60  0.95  2.70 0.076    216
+      A3 without 114 + 214  1.36  0.86  2.14 0.187    235
+      A4 without 101 + 201  1.65  1.03  2.65 0.037    119
+      A4       without 102  1.71  1.05  2.80 0.031    132
+      A4       without 103  1.64  1.04  2.60 0.035    132
+      A4       without 104  1.77  1.12  2.78 0.014    119
+      A4       without 105  1.58  1.01  2.50 0.047    128
+      A4       without 106  1.64  1.02  2.64 0.043    127
+      A4       without 107  1.77  1.08  2.90 0.023    126
+      A4 without 112 + 212  1.67  1.03  2.73 0.039    108
+      A4 without 113 + 213  2.25  1.22  4.13 0.009    112
+      A4 without 114 + 214  1.63  0.99  2.70 0.056    112
+ outcome           variant     R  R_lo  R_hi     p events
+  <char>            <char> <num> <num> <num> <num>  <int>
+   outcome schools R_min R_max p_below_05
+    <char>   <int> <num> <num>      <int>
+1:      A3      10  1.33  1.60          0
+2:      A4      10  1.58  2.25          9
+
+==============================================================================
+3. Leave one semester out
+==============================================================================
+ outcome                  variant     R  R_lo  R_hi     p events
+  <char>                   <char> <num> <num> <num> <num>  <int>
+      A3 without grade semester 3  1.41  0.91  2.18 0.126    261
+      A3 without grade semester 4  1.41  0.90  2.20 0.131    236
+      A3 without grade semester 5  1.38  0.88  2.18 0.166    202
+      A3 without grade semester 6  1.29  0.83  2.02 0.258    193
+      A3 without grade semester 7  1.46  0.80  2.66 0.214    220
+      A3 without grade semester 8  1.61  0.97  2.69 0.067    248
+      A4 without grade semester 3  1.70  1.07  2.70 0.026    132
+      A4 without grade semester 4  1.69  1.08  2.66 0.023    124
+      A4 without grade semester 5  1.78  1.06  3.01 0.031     91
+      A4 without grade semester 6  1.74  1.08  2.80 0.023     97
+      A4 without grade semester 7  1.81  0.93  3.54 0.081    108
+      A4 without grade semester 8  1.70  1.04  2.78 0.035    123
+   outcome semesters R_min R_max p_below_05
+    <char>     <int> <num> <num>      <int>
+1:      A3         6  1.29  1.61          0
+2:      A4         6  1.69  1.81          5
+
+==============================================================================
+4. Unseen friends
+==============================================================================
+ outcome                                 variant     R  R_lo  R_hi     p
+  <char>                                  <char> <num> <num> <num> <num>
+      A3  School x wave rate only (no homophily)  1.34  0.85  2.10 0.208
+      A3                Network model (logistic)  1.38  0.89  2.15 0.155
+      A3             All unseen friends: 6% used  1.31  0.82  2.11 0.263
+      A3            All unseen friends: 12% used  1.21  0.77  1.88 0.410
+      A3            All unseen friends: 20% used  1.08  0.71  1.66 0.714
+      A3 Multiple imputation (m = 50), homophily  1.26  0.73  2.17 0.402
+      A4  School x wave rate only (no homophily)  1.72  1.01  2.92 0.047
+      A4                Network model (logistic)  1.70  1.04  2.79 0.035
+      A4             All unseen friends: 6% used  1.77  1.00  3.14 0.050
+      A4            All unseen friends: 12% used  1.69  0.99  2.88 0.055
+      A4            All unseen friends: 20% used  1.58  0.96  2.59 0.073
+      A4 Multiple imputation (m = 50), homophily  1.47  0.87  2.50 0.151
+
+==============================================================================
+5. Measurement choices
+==============================================================================
+ outcome                                         variant     R  R_lo  R_hi     p events
+  <char>                                          <char> <num> <num> <num> <num>  <int>
+      A3           Social media: S1, the paper's average  1.04  0.79  1.38 0.767    259
+      A3 Friends' status: used in the past 6 months (U3)  1.41  0.76  2.62 0.270    272
+      A3                 Covariates measured at t-1 (X3)  1.15  0.77  1.72 0.487    302
+      A4           Social media: S1, the paper's average  1.19  0.89  1.58 0.241    128
+      A4 Friends' status: used in the past 6 months (U3)  1.66  0.84  3.28 0.148    135
+      A4                 Covariates measured at t-1 (X3)  1.61  1.03  2.53 0.036    149
+
+==============================================================================
+6. Model form
+==============================================================================
+ outcome                                         variant     R  R_lo  R_hi     p
+  <char>                                          <char> <num> <num> <num> <num>
+      A3 Stratified: at most 1 in 7 friends used vs more  1.36  0.96  1.94 0.083
+      A4 Stratified: at most 1 in 7 friends used vs more  1.38  0.91  2.09 0.126
+
+Counts model (Reviewer 1): friends who used and friends who did not, each interacting with social media
+ outcome                                   term    OR OR_lo OR_hi     p
+  <char>                                 <char> <num> <num> <num> <num>
+      A3          Friends who used (per friend) 1.334 1.157 1.537 0.000
+      A3   Friends who did not use (per friend) 0.922 0.849 1.002 0.055
+      A3        Social media x friends who used 0.957 0.799 1.147 0.638
+      A3 Social media x friends who did not use 1.026 0.952 1.105 0.504
+      A4          Friends who used (per friend) 1.529 1.290 1.813 0.000
+      A4   Friends who did not use (per friend) 0.868 0.771 0.976 0.018
+      A4        Social media x friends who used 0.930 0.767 1.128 0.461
+      A4 Social media x friends who did not use 1.068 0.970 1.176 0.182
+
+==============================================================================
+7. Summary
+==============================================================================
+                  Check                                         Variant                                              A3: R (95% CI), p                                              A4: R (95% CI), p
+                 <char>                                          <char>                                                         <char>                                                         <char>
+              Reference                       Recommended specification                                   1.41 (0.92, 2.18), p = 0.118                                   1.72 (1.09, 2.73), p = 0.020
+         Unseen friends          School x wave rate only (no homophily)                                   1.34 (0.85, 2.10), p = 0.208                                   1.72 (1.01, 2.92), p = 0.047
+         Unseen friends                        Network model (logistic)                                   1.38 (0.89, 2.15), p = 0.155                                   1.70 (1.04, 2.79), p = 0.035
+         Unseen friends                     All unseen friends: 6% used                                   1.31 (0.82, 2.11), p = 0.263                                   1.77 (1.00, 3.14), p = 0.050
+         Unseen friends                    All unseen friends: 12% used                                   1.21 (0.77, 1.88), p = 0.410                                   1.69 (0.99, 2.88), p = 0.055
+         Unseen friends                    All unseen friends: 20% used                                   1.08 (0.71, 1.66), p = 0.714                                   1.58 (0.96, 2.59), p = 0.073
+         Unseen friends         Multiple imputation (m = 50), homophily                                   1.26 (0.73, 2.17), p = 0.402                                   1.47 (0.87, 2.50), p = 0.151
+            Measurement           Social media: S1, the paper's average                                   1.04 (0.79, 1.38), p = 0.767                                   1.19 (0.89, 1.58), p = 0.241
+            Measurement Friends' status: used in the past 6 months (U3)                                   1.41 (0.76, 2.62), p = 0.270                                   1.66 (0.84, 3.28), p = 0.148
+            Measurement                 Covariates measured at t-1 (X3)                                   1.15 (0.77, 1.72), p = 0.487                                   1.61 (1.03, 2.53), p = 0.036
+             Model form Stratified: at most 1 in 7 friends used vs more                                   1.36 (0.96, 1.94), p = 0.083                                   1.38 (0.91, 2.09), p = 0.126
+   Leave one school out                                                 10 of 10 with R > 1; 0 of 10 with p < .05; R from 1.33 to 1.60 10 of 10 with R > 1; 9 of 10 with p < .05; R from 1.58 to 2.25
+ Leave one semester out                                                    6 of 6 with R > 1; 0 of 6 with p < .05; R from 1.29 to 1.61    6 of 6 with R > 1; 5 of 6 with p < .05; R from 1.69 to 1.81
+
+Outputs written to /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_out/02_robustness_20261023_140835
+
+End time: 2026-10-23 14:08:50.20534 (0.2 minutes)

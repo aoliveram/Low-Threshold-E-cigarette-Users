@@ -1,0 +1,75 @@
+Script: 04_descriptives 
+Start time: 2026-10-23 14:09:58.542829 
+Cores used: 8 
+Data: /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_data/ADVANCE_slim_v2.rds 
+
+
+==============================================================================
+1. Named friends by type
+==============================================================================
+           type     N   pct
+         <char> <int> <num>
+        visible 26385  55.1
+ nonparticipant 16616  34.7
+          typed  3235   6.8
+      no_answer  1634   3.4
+Unseen (not in the survey or typed): 41.5% of named friendships
+All nominations W4-W8 (any student): 43.1% unseen
+
+==============================================================================
+2. Information available for friends not in the survey (homophily)
+==============================================================================
+ named_by     N   pct
+   <char> <int> <num>
+        1  2025  24.7
+        2  2196  26.8
+        3  1628  19.8
+       4+  2354  28.7
+Median number of students naming a non-participant friend: 2; named by 2 or more: 75.3%
+
+==============================================================================
+3. Named nobody vs 'How many close friends do you have?' (W5, W9)
+==============================================================================
+W5: 289 named nobody; 78.2% of them report at least one close friend. Spearman(sni_1, named) = 0.23
+close_friends
+None  1-2  3-5  6-9  10+ 
+  63  129   72   16    9 
+W9: 72 named nobody; 73.6% of them report at least one close friend. Spearman(sni_1, named) = 0.29
+close_friends
+None  1-2  3-5  6-9  10+ 
+  19   30   18    3    2 
+
+==============================================================================
+4. Vaping-content items (wX_sm_post_k) missing because the platform is used less than weekly
+==============================================================================
+Platform items missing: 58.6%; of those, 86.6% belong to a platform used less than weekly (skip logic)
+Platforms answered per student-wave (paper's S1 averages over these): 0: 14%  1: 9%  2: 23%  3: 31%  4: 17%  5: 5%  6: 1%
+S3 items complete for all 6 platforms: 12391 student-waves; Cronbach's alpha = 0.76
+
+==============================================================================
+5. Peer exposure E (share of named friends who had used, t-1)
+==============================================================================
+
+A3: E quantiles P25/P50/P75/P90 = 0.004/0.029/0.143/0.247; among starters = 0.011/0.072/0.203/0.333
+       band student_semesters starts pct_rows start_rate_pct
+     <fctr>             <int>  <int>    <num>          <num>
+          0              1937     43     22.1           2.22
+   (0, 1/7]              4641    125     53.0           2.69
+ (1/7, 1/4]              1331     56     15.2           4.21
+ (1/4, 2/7]               167      8      1.9           4.79
+ (2/7, 1/2]               576     38      6.6           6.60
+   (1/2, 1]               106      2      1.2           1.89
+
+A4: E quantiles P25/P50/P75/P90 = 0.005/0.031/0.151/0.267; among starters = 0.027/0.134/0.271/0.397
+       band student_semesters starts pct_rows start_rate_pct
+     <fctr>             <int>  <int>    <num>          <num>
+          0              1997     16     21.8           0.80
+   (0, 1/7]              4744     53     51.7           1.12
+ (1/7, 1/4]              1424     28     15.5           1.97
+ (1/4, 2/7]               196      7      2.1           3.57
+ (2/7, 1/2]               677     27      7.4           3.99
+   (1/2, 1]               136      4      1.5           2.94
+
+Outputs written to /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_out/04_descriptives_20261023_140958
+
+End time: 2026-10-23 14:09:59.286972 (0.0 minutes)
