@@ -1,0 +1,32 @@
+# ── Student-level data and run outputs: never in git ─────────────────────────
+Cleaned_Data/
+outputs*/
+**/test_data/
+*.rds
+*.RData
+*.rda
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.parquet
+hash_salt.txt
+# Tables only under results/ (aggregated); any other CSV stays local
+*.csv
+!results/**/*.csv
+# School-level characteristics table: kept local
+results/paneo/sstar/loso_table.csv
+
+# ── Documents ────────────────────────────────────────────────────────────────
+# Working documents (they quote the reviews): local unless the co-authors agree to publish them
+docs/*
+!docs/notes/
+# Manuscript and peer review: confidential, never public
+docs/paper/
+
+# ── R and system ─────────────────────────────────────────────────────────────
+Rlib/
+.Rproj.user/
+.Rhistory
+.Ruserdata
+.DS_Store
