@@ -1,0 +1,31 @@
+"test","outcome","sample","contrast","estimate","lo","hi","p","n"
+"Group contrast","SM platforms used daily","All students","Gains friends (few->several) vs stays few",-0.013,-0.168,0.141,0.864,2664
+"Group contrast","SM platforms used daily","All students","Loses friends (several->few) vs stays several",-0.117,-0.252,0.017,0.0868,6197
+"First differences","SM platforms used daily","All students","Per friend gained",-0.003,-0.028,0.022,0.807,11452
+"First differences","SM platforms used daily","All students","Per friend lost",-0.024,-0.046,-0.001,0.0385,11452
+"Group contrast","Vaping-content exposure (paper scale)","All students","Gains friends (few->several) vs stays few",0.196,0.051,0.341,0.00803,1710
+"Group contrast","Vaping-content exposure (paper scale)","All students","Loses friends (several->few) vs stays several",0.083,-0.032,0.199,0.158,4410
+"First differences","Vaping-content exposure (paper scale)","All students","Per friend gained",0.034,0.013,0.055,0.00134,7912
+"First differences","Vaping-content exposure (paper scale)","All students","Per friend lost",0.017,-0.004,0.038,0.114,7912
+"Group contrast","Sees vaping content weekly+ (0/1)","All students","Gains friends (few->several) vs stays few",0.046,-0.017,0.11,0.155,1710
+"Group contrast","Sees vaping content weekly+ (0/1)","All students","Loses friends (several->few) vs stays several",-0.007,-0.058,0.043,0.772,4410
+"First differences","Sees vaping content weekly+ (0/1)","All students","Per friend gained",0.013,0.003,0.023,0.00962,7912
+"First differences","Sees vaping content weekly+ (0/1)","All students","Per friend lost",0.001,-0.007,0.01,0.769,7912
+"Within-student FE","SM platforms used daily","All students","Per extra friend named",0.027,0.012,0.042,0.000369,15918
+"Within-student FE","Vaping-content exposure (paper scale)","All students","Per extra friend named",0.001,-0.012,0.014,0.885,12115
+"Within-student FE","Vaping-content exposure (paper scale)","All students","Per extra SM platform used daily (chain)",0.008,-0.013,0.029,0.461,12115
+"Group contrast","SM platforms used daily","Never-users","Gains friends (few->several) vs stays few",-0.009,-0.162,0.145,0.913,2269
+"Group contrast","SM platforms used daily","Never-users","Loses friends (several->few) vs stays several",-0.126,-0.26,0.007,0.0639,5403
+"First differences","SM platforms used daily","Never-users","Per friend gained",-0.002,-0.027,0.023,0.868,9895
+"First differences","SM platforms used daily","Never-users","Per friend lost",-0.026,-0.048,-0.004,0.0206,9895
+"Group contrast","Vaping-content exposure (paper scale)","Never-users","Gains friends (few->several) vs stays few",0.242,0.088,0.397,0.00219,1465
+"Group contrast","Vaping-content exposure (paper scale)","Never-users","Loses friends (several->few) vs stays several",0.119,-0.007,0.245,0.0638,3874
+"First differences","Vaping-content exposure (paper scale)","Never-users","Per friend gained",0.033,0.011,0.055,0.00313,6878
+"First differences","Vaping-content exposure (paper scale)","Never-users","Per friend lost",0.022,-0.001,0.044,0.0612,6878
+"Group contrast","Sees vaping content weekly+ (0/1)","Never-users","Gains friends (few->several) vs stays few",0.065,-0.003,0.134,0.0628,1465
+"Group contrast","Sees vaping content weekly+ (0/1)","Never-users","Loses friends (several->few) vs stays several",-0.005,-0.061,0.05,0.848,3874
+"First differences","Sees vaping content weekly+ (0/1)","Never-users","Per friend gained",0.012,0.002,0.023,0.0238,6878
+"First differences","Sees vaping content weekly+ (0/1)","Never-users","Per friend lost",0.002,-0.007,0.011,0.672,6878
+"Within-student FE","SM platforms used daily","Never-users","Per extra friend named",0.028,0.013,0.044,0.000421,13677
+"Within-student FE","Vaping-content exposure (paper scale)","Never-users","Per extra friend named",0,-0.013,0.014,0.966,10459
+"Within-student FE","Vaping-content exposure (paper scale)","Never-users","Per extra SM platform used daily (chain)",0.001,-0.021,0.022,0.96,10459
