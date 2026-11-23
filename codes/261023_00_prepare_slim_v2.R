@@ -1,6 +1,6 @@
 # =============================================================================
 # 261023_00_prepare_slim_v2.R
-# ONE-TIME DATA PREP for the recommended models (run once, before scripts 01-04).
+# ONE-TIME DATA PREP for the recommended models (run once, before scripts 01-08).
 #
 # Reads the two ADVANCE workbooks and writes ADVANCE_slim_v2.rds with:
 #   panel : one row per student x wave (respondents only: non-missing schoolid)
