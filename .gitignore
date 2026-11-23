@@ -14,15 +14,25 @@ hash_salt.txt
 # Tables only under results/ (aggregated); any other CSV stays local
 *.csv
 !results/**/*.csv
-# School-level characteristics table: kept local
-results/paneo/sstar/loso_table.csv
 
 # ── Documents ────────────────────────────────────────────────────────────────
-# Working documents (they quote the reviews): local unless the co-authors agree to publish them
-docs/*
-!docs/notes/
-# Manuscript and peer review: confidential, never public
-docs/paper/
+# Working documents, internal reports, manuscript drafts: local only
+docs/
+
+# ── Local only: not part of the paper pipeline ───────────────────────────────
+# Exploratory scripts and the work behind the internal reports (sweep of
+# operationalizations, diagnostics of the earlier pipeline, substitution analysis,
+# earlier pipelines). They stay in the git history up to the repository cleanup.
+playground/
+report-support/
+archive/
+codes/paneo/
+codes/review-261015/
+codes/substitution/
+codes/260617_netdiffuseR_prepare_slim-AO.R
+codes/261015_PROVISIONAL_ORIGINAL_DEGREE_THRESHOLD_CONTINUOUS.R
+results/paneo/
+results/substitution/
 
 # ── R and system ─────────────────────────────────────────────────────────────
 Rlib/
