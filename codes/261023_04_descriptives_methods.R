@@ -7,6 +7,8 @@
 #   3. Students who named nobody: do they report close friends? (wX_sni_1, asked at W5 and W9)
 #   4. Social-media items: how many are missing only because the platform is used less than weekly
 #   5. Distribution of the peer exposure E and of starts across E
+#   6. Sample flow: student-semesters lost because the lagged social-media score is missing, and why;
+#      named friends by type in the primary (A4) models
 #
 # Only aggregate tables are written (no student-level rows).
 # Outputs (../outputs_261023/04_descriptives_<time>/): methods_descriptives.csv, 04_descriptives_log.txt
@@ -76,7 +78,7 @@ say("Platform items missing: %.1f%%; of those, %.1f%% belong to a platform used 
 s1_n <- rowSums(!is.na(core))
 say("Platforms answered per student-wave (paper's S1 averages over these): %s", paste(sprintf("%d: %.0f%%", 0:6, 100 * tabulate(s1_n + 1, 7) / length(s1_n)), collapse = "  "))
 keep("Social media items", "missing items due to skip logic, %", round(100 * sum(skip) / sum(miss), 1))
-# Reliability of S3 (Reviewer 2): Cronbach's alpha of the 6 platform items, skipped platforms coded "never"
+# Reliability of S3: Cronbach's alpha of the 6 platform items, skipped platforms coded "never"
 s3 <- core; s3[is.na(s3) & !is.na(use) & use < 2] <- 5; s3 <- 6 - s3[rowSums(!is.na(s3)) == 6, ]
 alpha <- function(X) { k <- ncol(X); k / (k - 1) * (1 - sum(apply(X, 2, var)) / var(rowSums(X))) }
 say("S3 items complete for all 6 platforms: %d student-waves; Cronbach's alpha = %.2f", nrow(s3), alpha(s3))
@@ -98,6 +100,43 @@ for (o in names(D)) {
   keep(sprintf("Exposure %s", o), "starts with E <= 1/4, %", round(100 * mean(d$E[d$y == 1] <= 0.25 + 1e-9), 1))
   keep(sprintf("Exposure %s", o), "student-semesters with E = 0, %", round(100 * mean(d$E == 0), 1))
 }
+# ══════════════════════════════════════════════════════════════════════════════
+# 6. Sample flow: student-semesters lost because the lagged social-media score is missing
+# ══════════════════════════════════════════════════════════════════════════════
+section("6. Sample flow and missing lagged social media")
+# The vaping-content items exist only at W4-W8, so the lagged score is missing by design when the previous
+# survey was W2, W3 or W9. The other losses: fewer than 4 valid platform scores, or the section not answered.
+# "Answered the section" = any of the 6 core platforms' use or vaping-content items is non-missing
+sm_any <- slim$panel[, .(record_id, wn = wave, any_sm = rowSums(!is.na(.SD)) > 0),
+                     .SDcols = c(paste0("smp", 1:6), paste0("smu", c(1, 2, 3, 7, 8, 11)))]
+for (o in c("A4", "A3")) {
+  R <- F$PP[get(paste0("risk_", o)) == TRUE]
+  R[, `:=`(y = get(paste0("y_", o)), wn = gp_to_wave(school, gp - 1L))]
+  R <- R[F$RESP[, .(record_id, wn = wave)], on = .(record_id, wn), nomatch = 0L]
+  R <- merge(R, F$DEG[, .(school, wave, record_id, outdeg, indeg)], by = c("school", "wave", "record_id"), all.x = TRUE)
+  for (v in c("outdeg", "indeg")) set(R, which(is.na(R[[v]])), v, 0L)
+  R[, mddv := mdd]
+  need <- c("y", "gp", "cohort", "female", "hispanic", "asian", "paredu", "mddv", "sexmin", "outdeg", "indeg")
+  R <- R[complete.cases(R[, ..need])]                                    # every criterion except social media
+  M <- merge(R[is.na(S3_lag), .(record_id, wn)], sm_any, by = c("record_id", "wn"), all.x = TRUE)
+  M[is.na(any_sm), any_sm := FALSE]
+  M[, why := fifelse(wn %in% c(2, 3, 9), "design", fifelse(any_sm, "few", "none"))]   # mutually exclusive
+  by_design <- sum(M$why == "design")
+  say("%s: eligible on all other criteria %s | missing lagged S3 %s (%.1f%%): not administered at t-1 %s, fewer than 4 valid platforms %s, section not answered %s | analytic %s",
+      o, format(nrow(R), big.mark = ","), format(nrow(M), big.mark = ","), 100 * nrow(M) / nrow(R), format(by_design, big.mark = ","),
+      format(sum(M$why == "few"), big.mark = ","), format(sum(M$why == "none"), big.mark = ","),
+      format(sum(!is.na(R$S3_lag)), big.mark = ","))
+  keep(sprintf("Sample flow %s", o), "eligible on all criteria except social media", nrow(R))
+  keep(sprintf("Sample flow %s", o), "missing lagged social media", sprintf("%d (%.1f%%)", nrow(M), 100 * nrow(M) / nrow(R)))
+  keep(sprintf("Sample flow %s", o), "  items not administered at t-1 (W2, W3, W9)", by_design)
+  keep(sprintf("Sample flow %s", o), "  fewer than 4 valid platform scores", sum(M$why == "few"))
+  keep(sprintf("Sample flow %s", o), "  social media section not answered", sum(M$why == "none"))
+}
+cat("\nNamed friends in the primary (A4) models:\n")
+t4 <- P$A4$ed[, .N, by = type][, pct := round(100 * N / sum(N), 1)][order(-N)]
+print(t4, row.names = FALSE)
+for (i in seq_len(nrow(t4))) keep("Named friends (A4 models)", t4$type[i], sprintf("%s (%.1f%%)", format(t4$N[i], big.mark = ","), t4$pct[i]))
+
 fwrite(rbindlist(OUTT), file.path(run$dir, "methods_descriptives.csv"))
 say("\nOutputs written to %s", normalizePath(run$dir))
 end_run(run)

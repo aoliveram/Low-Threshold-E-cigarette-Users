@@ -1,6 +1,6 @@
 # =============================================================================
 # 261023_01_main_recommended_models.R
-# MAIN RESULTS for the revision: the two co-primary outcomes with the recommended exposure.
+# MAIN RESULTS: the two outcomes (A4 primary, A3 secondary) with the recommended exposure.
 #
 #   A3  start of past-6-month e-cigarette use   (wX_past_6mo_use_3)
 #   A4  start of past-30-day e-cigarette use    (wX_past30_sub_3_any; W7-W8: wX_past30_sub_3 > 0 days)
@@ -19,7 +19,7 @@
 #
 # Outputs (one folder per run in ../outputs_261023/):
 #   table1_characteristics.csv   sample description
-#   table2_main_models.csv       the "Now" table (paper format)
+#   table2_main_models.csv       summary of the interaction (R), its bootstrap, the counts model and the low-threshold OR
 #   table3_predicted_probabilities.csv
 #   main_models_full.csv         every estimate with more decimals
 #   01_main_log.txt              full log

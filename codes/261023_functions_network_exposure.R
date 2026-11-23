@@ -1,6 +1,6 @@
 # =============================================================================
 # 261023_functions_network_exposure.R
-# Shared functions for scripts 01-04. Sourced by them, not run on its own.
+# Shared functions for scripts 01-08. Sourced by them, not run on its own.
 #
 #   start_run()          output folder + Stata-style log for one script run
 #   build_frame()        student x semester frame: outcomes, social media, covariates, friendships
@@ -149,7 +149,7 @@ build_frame <- function(slim) {
 # ══════════════════════════════════════════════════════════════════════════════
 # 2. One specification
 # ══════════════════════════════════════════════════════════════════════════════
-# outcome    "A3" past-6-month initiation (main) | "A4" past-30-day initiation (co-primary)
+# outcome    "A4" past-30-day initiation (primary) | "A3" past-6-month initiation (secondary)
 # status     "U1" friend had EVER used by t-1 (Valente; main) | "U3" friend used in the past 6 months at t-1
 # imputation "homophily" (main) | "prevalence" | "model" | "const" (all unseen friends = q)
 # sm         "S3" (main) | "S1" (the paper's average)
@@ -286,7 +286,7 @@ fit_stratified <- function(D, cut = 1/7) {
   b <- unname(coef(f)[a] - coef(f)[h]); se <- sqrt(V[a, a] + V[h, h] - 2 * V[a, h])
   data.table(R = exp(b), R_lo = exp(b - 1.96 * se), R_hi = exp(b + 1.96 * se), p = 2 * pnorm(-abs(b / se))) }
 
-# Counts (Reviewer 1): number of friends who used and number who did not, each interacting with social media.
+# Counts: number of friends who used and number who did not, each interacting with social media.
 # Out-degree is left out because it is the sum of the two counts.
 fit_counts <- function(D) { center(D); D[, `:=`(Uc = k, NUc = nu)]
   f <- glm_fit(paste("y ~ smc * Uc + smc * NUc +", cov_terms(D, drop = "outdeg")), D)

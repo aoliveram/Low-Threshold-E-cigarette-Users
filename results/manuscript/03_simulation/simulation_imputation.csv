@@ -1,0 +1,5 @@
+outcome,method,mean_R,coverage_95,power,sims,true_R
+A3,Expected value (recommended),1.86707292818793,0.9625,0.38125,160,1.7
+A3,Multiple imputation,1.59606885308534,0.975,0.1875,160,1.7
+A4,Expected value (recommended),1.78143361651873,0.9125,0.3125,160,1.7
+A4,Multiple imputation,1.53672779770437,0.94375,0.1125,160,1.7

@@ -1,0 +1,27 @@
+Script: 08_no_imputation 
+Start time: 2026-11-20 17:36:26.251175 
+Cores used: 8 
+Data: <repo>/Cleaned_Data/ADVANCE_slim_v2.rds 
+
+
+==============================================================================
+Past-30-day use (primary)
+==============================================================================
+ outcome                                         variant     n events mean_E pct_flag_no_friend                           R low_threshold_events           low_threshold_AOR
+  <char>                                          <char> <int>  <int>  <num>              <num>                      <char>                <int>                      <char>
+      A4 Reference: unseen friends estimated (homophily)  9174    135  0.091                9.4 1.72 (1.09-2.73), p = 0.020                   97 1.81 (1.43-2.31), p = <.001
+      A4             Unseen friends counted as non-users  9174    135  0.053                9.4 1.85 (1.00-3.43), p = 0.051                  111 1.78 (1.42-2.23), p = <.001
+      A4                           Observed friends only  9174    135  0.088               13.6 1.38 (0.98-1.95), p = 0.068                  100 1.90 (1.50-2.41), p = <.001
+
+==============================================================================
+Past-six-month use (secondary)
+==============================================================================
+ outcome                                         variant     n events mean_E pct_flag_no_friend                           R low_threshold_events           low_threshold_AOR
+  <char>                                          <char> <int>  <int>  <num>              <num>                      <char>                <int>                      <char>
+      A3 Reference: unseen friends estimated (homophily)  8758    272  0.085                9.4 1.41 (0.92-2.18), p = 0.118                  224 1.37 (1.13-1.67), p = 0.002
+      A3             Unseen friends counted as non-users  8758    272  0.051                9.4 1.43 (0.85-2.41), p = 0.180                  240 1.37 (1.14-1.65), p = <.001
+      A3                           Observed friends only  8758    272  0.083               13.6 1.15 (0.86-1.55), p = 0.344                  218 1.41 (1.16-1.72), p = <.001
+
+Outputs written to <repo>/outputs_261023/08_no_imputation_20261120_173626
+
+End time: 2026-11-20 17:36:28.29684 (0.0 minutes)

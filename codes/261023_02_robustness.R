@@ -1,6 +1,6 @@
 # =============================================================================
 # 261023_02_robustness.R
-# ROBUSTNESS of the interaction R for the two co-primary outcomes (A3, A4). Each check changes ONE
+# ROBUSTNESS of the interaction R for the two outcomes (A4 primary, A3 secondary). Each check changes ONE
 # decision of the recommended specification (script 01) and keeps everything else fixed.
 #
 #   2. Leave one school out (10 buildings; Cohort 2 schools go with their Cohort 1 building)
@@ -89,7 +89,7 @@ section("6. Model form")
 STR <- rbindlist(lapply(OUT, function(o) r_row("Model form", "Stratified: at most 1 in 7 friends used vs more", o, fit_stratified(make_data(F, outcome = o)))))
 print(STR[, .(outcome, variant, R = round(R, 2), R_lo = round(R_lo, 2), R_hi = round(R_hi, 2), p = round(p, 3))], row.names = FALSE)
 CNT <- rbindlist(lapply(OUT, function(o) fit_counts(make_data(F, outcome = o))[, outcome := o]))
-cat("\nCounts model (Reviewer 1): friends who used and friends who did not, each interacting with social media\n")
+cat("\nCounts model: friends who used and friends who did not, each interacting with social media\n")
 print(CNT[, .(outcome, term, OR = round(OR, 3), OR_lo = round(OR_lo, 3), OR_hi = round(OR_hi, 3), p = round(p, 3))], row.names = FALSE)
 fwrite(CNT, file.path(run$dir, "counts_model.csv"))
 
