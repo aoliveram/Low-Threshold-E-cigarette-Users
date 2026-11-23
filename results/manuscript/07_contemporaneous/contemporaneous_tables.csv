@@ -1,0 +1,145 @@
+outcome,variant,table,row,events,OR,p
+A4,SM t-1 / network t-1 (manuscript),Table 2,Any transition,135,1.87 (1.53-2.30),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 2,No visible using friend,73,1.95 (1.49-2.55),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 2,Low-threshold transition (E <= 25%),97,1.81 (1.43-2.31),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 2,High-threshold transition (E > 25%),38,2.02 (1.41-2.88),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 3A,"Social media, model without interaction",135,1.80 (1.46-2.22),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 3A,"High vs. low peer exposure, model without interaction",,2.59 (1.67-4.03),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 3A,Social media effect at low exposure (<= 25%),,1.96 (1.54-2.48),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 3A,Social media effect at high exposure (> 25%),,1.43 (0.95-2.15),0.084
+A4,SM t-1 / network t-1 (manuscript),Table 3A,Social media x high exposure,,0.73 (0.46-1.17),0.194
+A4,SM t-1 / network t-1 (manuscript),Table 3B,Social media (additive),135,1.77 (1.43-2.19),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 3B,Peer exposure per +25 pp (additive),,1.92 (1.52-2.42),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 3B,Social media effect at 0% peer exposure,,2.11 (1.66-2.68),<.001
+A4,SM t-1 / network t-1 (manuscript),Table 3B,Social media effect at 50% peer exposure,,1.22 (0.83-1.81),0.311
+A4,SM t-1 / network t-1 (manuscript),Table 3B,Social media x peers (per +25 pp),,0.76 (0.61-0.96),0.020
+A4,SM t-1 / network t-1 (manuscript),Table 3B,R = OR at 0% / OR at 50% (Wald),,1.72 (1.09-2.73),0.020
+A4,SM t-1 / network t-1 (manuscript),Table 3B,"R, bootstrap 95% CI and p",,1.72 (1.04-2.86),0.038
+A4,SM t-1 / network t-1 (manuscript),Sample,Student-semesters (students),,"9,174 (2,906)",""
+A4,SM t-1 / network t-1 (manuscript),Sample,"Named friends whose use was estimated, %",,41.5,""
+A4,SM t / network t-1,Table 2,Any transition,184,1.85 (1.53-2.23),<.001
+A4,SM t / network t-1,Table 2,No visible using friend,97,1.74 (1.36-2.23),<.001
+A4,SM t / network t-1,Table 2,Low-threshold transition (E <= 25%),138,1.92 (1.56-2.37),<.001
+A4,SM t / network t-1,Table 2,High-threshold transition (E > 25%),46,1.54 (1.06-2.22),0.022
+A4,SM t / network t-1,Table 3A,"Social media, model without interaction",184,1.82 (1.51-2.21),<.001
+A4,SM t / network t-1,Table 3A,"High vs. low peer exposure, model without interaction",,3.03 (2.04-4.50),<.001
+A4,SM t / network t-1,Table 3A,Social media effect at low exposure (<= 25%),,1.98 (1.61-2.43),<.001
+A4,SM t / network t-1,Table 3A,Social media effect at high exposure (> 25%),,1.30 (0.86-1.99),0.216
+A4,SM t / network t-1,Table 3A,Social media x high exposure,,0.66 (0.41-1.05),0.080
+A4,SM t / network t-1,Table 3B,Social media (additive),184,1.80 (1.49-2.18),<.001
+A4,SM t / network t-1,Table 3B,Peer exposure per +25 pp (additive),,2.24 (1.81-2.79),<.001
+A4,SM t / network t-1,Table 3B,Social media effect at 0% peer exposure,,1.86 (1.46-2.35),<.001
+A4,SM t / network t-1,Table 3B,Social media effect at 50% peer exposure,,1.67 (1.14-2.44),0.008
+A4,SM t / network t-1,Table 3B,Social media x peers (per +25 pp),,0.95 (0.75-1.20),0.655
+A4,SM t / network t-1,Table 3B,R = OR at 0% / OR at 50% (Wald),,1.11 (0.70-1.78),0.655
+A4,SM t / network t-1,Table 3B,"R, bootstrap 95% CI and p",,1.11 (0.64-1.85),0.712
+A4,SM t / network t-1,Sample,Student-semesters (students),,"10,676 (3,126)",""
+A4,SM t / network t-1,Sample,"Named friends whose use was estimated, %",,41.7,""
+A4,SM t-1 / network t,Table 2,Any transition,135,1.87 (1.53-2.30),<.001
+A4,SM t-1 / network t,Table 2,No visible using friend,62,1.57 (1.15-2.13),0.004
+A4,SM t-1 / network t,Table 2,Low-threshold transition (E <= 25%),85,1.77 (1.37-2.30),<.001
+A4,SM t-1 / network t,Table 2,High-threshold transition (E > 25%),50,1.99 (1.43-2.76),<.001
+A4,SM t-1 / network t,Table 3A,"Social media, model without interaction",135,1.80 (1.46-2.22),<.001
+A4,SM t-1 / network t,Table 3A,"High vs. low peer exposure, model without interaction",,2.61 (1.76-3.87),<.001
+A4,SM t-1 / network t,Table 3A,Social media effect at low exposure (<= 25%),,1.95 (1.52-2.51),<.001
+A4,SM t-1 / network t,Table 3A,Social media effect at high exposure (> 25%),,1.55 (1.09-2.19),0.014
+A4,SM t-1 / network t,Table 3A,Social media x high exposure,,0.79 (0.52-1.22),0.287
+A4,SM t-1 / network t,Table 3B,Social media (additive),135,1.77 (1.43-2.19),<.001
+A4,SM t-1 / network t,Table 3B,Peer exposure per +25 pp (additive),,1.96 (1.61-2.39),<.001
+A4,SM t-1 / network t,Table 3B,Social media effect at 0% peer exposure,,2.01 (1.54-2.61),<.001
+A4,SM t-1 / network t,Table 3B,Social media effect at 50% peer exposure,,1.49 (1.07-2.07),0.020
+A4,SM t-1 / network t,Table 3B,Social media x peers (per +25 pp),,0.86 (0.70-1.07),0.168
+A4,SM t-1 / network t,Table 3B,R = OR at 0% / OR at 50% (Wald),,1.35 (0.88-2.07),0.168
+A4,SM t-1 / network t,Table 3B,"R, bootstrap 95% CI and p",,1.35 (0.84-2.13),0.204
+A4,SM t-1 / network t,Sample,Student-semesters (students),,"9,174 (2,906)",""
+A4,SM t-1 / network t,Sample,"Named friends whose use was estimated, %",,41.4,""
+A4,SM t / network t,Table 2,Any transition,184,1.85 (1.53-2.23),<.001
+A4,SM t / network t,Table 2,No visible using friend,74,2.00 (1.55-2.58),<.001
+A4,SM t / network t,Table 2,Low-threshold transition (E <= 25%),115,1.85 (1.47-2.33),<.001
+A4,SM t / network t,Table 2,High-threshold transition (E > 25%),69,1.79 (1.32-2.42),<.001
+A4,SM t / network t,Table 3A,"Social media, model without interaction",184,1.79 (1.48-2.17),<.001
+A4,SM t / network t,Table 3A,"High vs. low peer exposure, model without interaction",,3.07 (2.18-4.33),<.001
+A4,SM t / network t,Table 3A,Social media effect at low exposure (<= 25%),,1.96 (1.56-2.47),<.001
+A4,SM t / network t,Table 3A,Social media effect at high exposure (> 25%),,1.50 (1.10-2.05),0.011
+A4,SM t / network t,Table 3A,Social media x high exposure,,0.76 (0.52-1.12),0.167
+A4,SM t / network t,Table 3B,Social media (additive),184,1.76 (1.44-2.15),<.001
+A4,SM t / network t,Table 3B,Peer exposure per +25 pp (additive),,2.43 (2.03-2.90),<.001
+A4,SM t / network t,Table 3B,Social media effect at 0% peer exposure,,2.03 (1.57-2.62),<.001
+A4,SM t / network t,Table 3B,Social media effect at 50% peer exposure,,1.42 (1.06-1.91),0.020
+A4,SM t / network t,Table 3B,Social media x peers (per +25 pp),,0.84 (0.69-1.02),0.078
+A4,SM t / network t,Table 3B,R = OR at 0% / OR at 50% (Wald),,1.43 (0.96-2.12),0.078
+A4,SM t / network t,Table 3B,"R, bootstrap 95% CI and p",,1.43 (0.93-2.16),0.106
+A4,SM t / network t,Sample,Student-semesters (students),,"10,676 (3,126)",""
+A4,SM t / network t,Sample,"Named friends whose use was estimated, %",,41.7,""
+A3,SM t-1 / network t-1 (manuscript),Table 2,Any transition,272,1.46 (1.23-1.74),<.001
+A3,SM t-1 / network t-1 (manuscript),Table 2,No visible using friend,156,1.43 (1.14-1.79),0.002
+A3,SM t-1 / network t-1 (manuscript),Table 2,Low-threshold transition (E <= 25%),224,1.37 (1.13-1.67),0.002
+A3,SM t-1 / network t-1 (manuscript),Table 2,High-threshold transition (E > 25%),48,1.89 (1.41-2.54),<.001
+A3,SM t-1 / network t-1 (manuscript),Table 3A,"Social media, model without interaction",272,1.43 (1.21-1.70),<.001
+A3,SM t-1 / network t-1 (manuscript),Table 3A,"High vs. low peer exposure, model without interaction",,1.86 (1.30-2.67),<.001
+A3,SM t-1 / network t-1 (manuscript),Table 3A,Social media effect at low exposure (<= 25%),,1.45 (1.19-1.76),<.001
+A3,SM t-1 / network t-1 (manuscript),Table 3A,Social media effect at high exposure (> 25%),,1.37 (0.96-1.97),0.083
+A3,SM t-1 / network t-1 (manuscript),Table 3A,Social media x high exposure,,0.95 (0.63-1.43),0.801
+A3,SM t-1 / network t-1 (manuscript),Table 3B,Social media (additive),272,1.42 (1.19-1.69),<.001
+A3,SM t-1 / network t-1 (manuscript),Table 3B,Peer exposure per +25 pp (additive),,1.60 (1.33-1.94),<.001
+A3,SM t-1 / network t-1 (manuscript),Table 3B,Social media effect at 0% peer exposure,,1.55 (1.27-1.90),<.001
+A3,SM t-1 / network t-1 (manuscript),Table 3B,Social media effect at 50% peer exposure,,1.10 (0.76-1.58),0.611
+A3,SM t-1 / network t-1 (manuscript),Table 3B,Social media x peers (per +25 pp),,0.84 (0.68-1.04),0.118
+A3,SM t-1 / network t-1 (manuscript),Table 3B,R = OR at 0% / OR at 50% (Wald),,1.41 (0.92-2.18),0.118
+A3,SM t-1 / network t-1 (manuscript),Table 3B,"R, bootstrap 95% CI and p",,1.41 (0.92-2.30),0.134
+A3,SM t-1 / network t-1 (manuscript),Sample,Student-semesters (students),,"8,758 (2,819)",""
+A3,SM t-1 / network t-1 (manuscript),Sample,"Named friends whose use was estimated, %",,41.5,""
+A3,SM t / network t-1,Table 2,Any transition,317,1.61 (1.37-1.90),<.001
+A3,SM t / network t-1,Table 2,No visible using friend,181,1.36 (1.09-1.70),0.006
+A3,SM t / network t-1,Table 2,Low-threshold transition (E <= 25%),264,1.60 (1.34-1.92),<.001
+A3,SM t / network t-1,Table 2,High-threshold transition (E > 25%),53,1.65 (1.21-2.27),0.002
+A3,SM t / network t-1,Table 3A,"Social media, model without interaction",317,1.60 (1.35-1.89),<.001
+A3,SM t / network t-1,Table 3A,"High vs. low peer exposure, model without interaction",,2.17 (1.55-3.04),<.001
+A3,SM t / network t-1,Table 3A,Social media effect at low exposure (<= 25%),,1.65 (1.38-1.97),<.001
+A3,SM t / network t-1,Table 3A,Social media effect at high exposure (> 25%),,1.32 (0.89-1.95),0.167
+A3,SM t / network t-1,Table 3A,Social media x high exposure,,0.80 (0.52-1.22),0.301
+A3,SM t / network t-1,Table 3B,Social media (additive),317,1.58 (1.34-1.87),<.001
+A3,SM t / network t-1,Table 3B,Peer exposure per +25 pp (additive),,1.81 (1.50-2.19),<.001
+A3,SM t / network t-1,Table 3B,Social media effect at 0% peer exposure,,1.68 (1.38-2.04),<.001
+A3,SM t / network t-1,Table 3B,Social media effect at 50% peer exposure,,1.29 (0.87-1.90),0.202
+A3,SM t / network t-1,Table 3B,Social media x peers (per +25 pp),,0.88 (0.70-1.10),0.256
+A3,SM t / network t-1,Table 3B,R = OR at 0% / OR at 50% (Wald),,1.30 (0.82-2.06),0.256
+A3,SM t / network t-1,Table 3B,"R, bootstrap 95% CI and p",,1.30 (0.82-2.13),0.256
+A3,SM t / network t-1,Sample,Student-semesters (students),,"10,221 (3,047)",""
+A3,SM t / network t-1,Sample,"Named friends whose use was estimated, %",,41.7,""
+A3,SM t-1 / network t,Table 2,Any transition,272,1.46 (1.23-1.74),<.001
+A3,SM t-1 / network t,Table 2,No visible using friend,137,1.41 (1.11-1.77),0.004
+A3,SM t-1 / network t,Table 2,Low-threshold transition (E <= 25%),185,1.40 (1.14-1.74),0.002
+A3,SM t-1 / network t,Table 2,High-threshold transition (E > 25%),87,1.55 (1.20-2.02),<.001
+A3,SM t-1 / network t,Table 3A,"Social media, model without interaction",272,1.41 (1.18-1.68),<.001
+A3,SM t-1 / network t,Table 3A,"High vs. low peer exposure, model without interaction",,2.65 (1.97-3.57),<.001
+A3,SM t-1 / network t,Table 3A,Social media effect at low exposure (<= 25%),,1.50 (1.22-1.86),<.001
+A3,SM t-1 / network t,Table 3A,Social media effect at high exposure (> 25%),,1.23 (0.92-1.64),0.172
+A3,SM t-1 / network t,Table 3A,Social media x high exposure,,0.81 (0.57-1.16),0.257
+A3,SM t-1 / network t,Table 3B,Social media (additive),272,1.40 (1.17-1.67),<.001
+A3,SM t-1 / network t,Table 3B,Peer exposure per +25 pp (additive),,1.94 (1.64-2.29),<.001
+A3,SM t-1 / network t,Table 3B,Social media effect at 0% peer exposure,,1.54 (1.22-1.95),<.001
+A3,SM t-1 / network t,Table 3B,Social media effect at 50% peer exposure,,1.20 (0.87-1.65),0.264
+A3,SM t-1 / network t,Table 3B,Social media x peers (per +25 pp),,0.88 (0.71-1.09),0.250
+A3,SM t-1 / network t,Table 3B,R = OR at 0% / OR at 50% (Wald),,1.29 (0.84-1.97),0.250
+A3,SM t-1 / network t,Table 3B,"R, bootstrap 95% CI and p",,1.29 (0.82-2.00),0.270
+A3,SM t-1 / network t,Sample,Student-semesters (students),,"8,758 (2,819)",""
+A3,SM t-1 / network t,Sample,"Named friends whose use was estimated, %",,41.5,""
+A3,SM t / network t,Table 2,Any transition,317,1.62 (1.37-1.90),<.001
+A3,SM t / network t,Table 2,No visible using friend,149,1.63 (1.32-2.00),<.001
+A3,SM t / network t,Table 2,Low-threshold transition (E <= 25%),219,1.61 (1.33-1.95),<.001
+A3,SM t / network t,Table 2,High-threshold transition (E > 25%),98,1.60 (1.21-2.11),<.001
+A3,SM t / network t,Table 3A,"Social media, model without interaction",317,1.57 (1.33-1.86),<.001
+A3,SM t / network t,Table 3A,"High vs. low peer exposure, model without interaction",,2.71 (2.05-3.59),<.001
+A3,SM t / network t,Table 3A,Social media effect at low exposure (<= 25%),,1.69 (1.40-2.04),<.001
+A3,SM t / network t,Table 3A,Social media effect at high exposure (> 25%),,1.31 (0.95-1.80),0.096
+A3,SM t / network t,Table 3A,Social media x high exposure,,0.77 (0.54-1.12),0.170
+A3,SM t / network t,Table 3B,Social media (additive),317,1.56 (1.31-1.85),<.001
+A3,SM t / network t,Table 3B,Peer exposure per +25 pp (additive),,2.11 (1.81-2.47),<.001
+A3,SM t / network t,Table 3B,Social media effect at 0% peer exposure,,1.78 (1.45-2.19),<.001
+A3,SM t / network t,Table 3B,Social media effect at 50% peer exposure,,1.20 (0.88-1.64),0.253
+A3,SM t / network t,Table 3B,Social media x peers (per +25 pp),,0.82 (0.68-1.00),0.047
+A3,SM t / network t,Table 3B,R = OR at 0% / OR at 50% (Wald),,1.48 (1.01-2.19),0.047
+A3,SM t / network t,Table 3B,"R, bootstrap 95% CI and p",,1.48 (0.99-2.30),0.058
+A3,SM t / network t,Sample,Student-semesters (students),,"10,221 (3,047)",""
+A3,SM t / network t,Sample,"Named friends whose use was estimated, %",,41.7,""

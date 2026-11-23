@@ -1,0 +1,254 @@
+Script: 07_contemporaneous 
+Start time: 2026-11-20 17:36:28.443874 
+Cores used: 8 
+Data: <repo>/Cleaned_Data/ADVANCE_slim_v2.rds 
+
+
+==============================================================================
+1. Social media at t
+==============================================================================
+Social media items exist only in waves 4-8. Rows with S3 at t-1: 12086 | with S3 at t: 13272
+
+==============================================================================
+Past-30-day use (primary) | SM t-1 / network t-1 (manuscript)
+==============================================================================
+    table                                                   row events               OR      p
+   <char>                                                <char>  <int>           <char> <char>
+  Table 2                                        Any transition    135 1.87 (1.53-2.30)  <.001
+  Table 2                               No visible using friend     73 1.95 (1.49-2.55)  <.001
+  Table 2                   Low-threshold transition (E <= 25%)     97 1.81 (1.43-2.31)  <.001
+  Table 2                   High-threshold transition (E > 25%)     38 2.02 (1.41-2.88)  <.001
+ Table 3A               Social media, model without interaction    135 1.80 (1.46-2.22)  <.001
+ Table 3A High vs. low peer exposure, model without interaction     NA 2.59 (1.67-4.03)  <.001
+ Table 3A          Social media effect at low exposure (<= 25%)     NA 1.96 (1.54-2.48)  <.001
+ Table 3A          Social media effect at high exposure (> 25%)     NA 1.43 (0.95-2.15)  0.084
+ Table 3A                          Social media x high exposure     NA 0.73 (0.46-1.17)  0.194
+ Table 3B                               Social media (additive)    135 1.77 (1.43-2.19)  <.001
+ Table 3B                   Peer exposure per +25 pp (additive)     NA 1.92 (1.52-2.42)  <.001
+ Table 3B               Social media effect at 0% peer exposure     NA 2.11 (1.66-2.68)  <.001
+ Table 3B              Social media effect at 50% peer exposure     NA 1.22 (0.83-1.81)  0.311
+ Table 3B                     Social media x peers (per +25 pp)     NA 0.76 (0.61-0.96)  0.020
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)     NA 1.72 (1.09-2.73)  0.020
+ Table 3B                             R, bootstrap 95% CI and p     NA 1.72 (1.04-2.86)  0.038
+   Sample                          Student-semesters (students)     NA    9,174 (2,906)       
+   Sample              Named friends whose use was estimated, %     NA             41.5       
+
+==============================================================================
+Past-30-day use (primary) | SM t / network t-1
+==============================================================================
+    table                                                   row events               OR      p
+   <char>                                                <char>  <int>           <char> <char>
+  Table 2                                        Any transition    184 1.85 (1.53-2.23)  <.001
+  Table 2                               No visible using friend     97 1.74 (1.36-2.23)  <.001
+  Table 2                   Low-threshold transition (E <= 25%)    138 1.92 (1.56-2.37)  <.001
+  Table 2                   High-threshold transition (E > 25%)     46 1.54 (1.06-2.22)  0.022
+ Table 3A               Social media, model without interaction    184 1.82 (1.51-2.21)  <.001
+ Table 3A High vs. low peer exposure, model without interaction     NA 3.03 (2.04-4.50)  <.001
+ Table 3A          Social media effect at low exposure (<= 25%)     NA 1.98 (1.61-2.43)  <.001
+ Table 3A          Social media effect at high exposure (> 25%)     NA 1.30 (0.86-1.99)  0.216
+ Table 3A                          Social media x high exposure     NA 0.66 (0.41-1.05)  0.080
+ Table 3B                               Social media (additive)    184 1.80 (1.49-2.18)  <.001
+ Table 3B                   Peer exposure per +25 pp (additive)     NA 2.24 (1.81-2.79)  <.001
+ Table 3B               Social media effect at 0% peer exposure     NA 1.86 (1.46-2.35)  <.001
+ Table 3B              Social media effect at 50% peer exposure     NA 1.67 (1.14-2.44)  0.008
+ Table 3B                     Social media x peers (per +25 pp)     NA 0.95 (0.75-1.20)  0.655
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)     NA 1.11 (0.70-1.78)  0.655
+ Table 3B                             R, bootstrap 95% CI and p     NA 1.11 (0.64-1.85)  0.712
+   Sample                          Student-semesters (students)     NA   10,676 (3,126)       
+   Sample              Named friends whose use was estimated, %     NA             41.7       
+
+==============================================================================
+Past-30-day use (primary) | SM t-1 / network t
+==============================================================================
+    table                                                   row events               OR      p
+   <char>                                                <char>  <int>           <char> <char>
+  Table 2                                        Any transition    135 1.87 (1.53-2.30)  <.001
+  Table 2                               No visible using friend     62 1.57 (1.15-2.13)  0.004
+  Table 2                   Low-threshold transition (E <= 25%)     85 1.77 (1.37-2.30)  <.001
+  Table 2                   High-threshold transition (E > 25%)     50 1.99 (1.43-2.76)  <.001
+ Table 3A               Social media, model without interaction    135 1.80 (1.46-2.22)  <.001
+ Table 3A High vs. low peer exposure, model without interaction     NA 2.61 (1.76-3.87)  <.001
+ Table 3A          Social media effect at low exposure (<= 25%)     NA 1.95 (1.52-2.51)  <.001
+ Table 3A          Social media effect at high exposure (> 25%)     NA 1.55 (1.09-2.19)  0.014
+ Table 3A                          Social media x high exposure     NA 0.79 (0.52-1.22)  0.287
+ Table 3B                               Social media (additive)    135 1.77 (1.43-2.19)  <.001
+ Table 3B                   Peer exposure per +25 pp (additive)     NA 1.96 (1.61-2.39)  <.001
+ Table 3B               Social media effect at 0% peer exposure     NA 2.01 (1.54-2.61)  <.001
+ Table 3B              Social media effect at 50% peer exposure     NA 1.49 (1.07-2.07)  0.020
+ Table 3B                     Social media x peers (per +25 pp)     NA 0.86 (0.70-1.07)  0.168
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)     NA 1.35 (0.88-2.07)  0.168
+ Table 3B                             R, bootstrap 95% CI and p     NA 1.35 (0.84-2.13)  0.204
+   Sample                          Student-semesters (students)     NA    9,174 (2,906)       
+   Sample              Named friends whose use was estimated, %     NA             41.4       
+
+==============================================================================
+Past-30-day use (primary) | SM t / network t
+==============================================================================
+    table                                                   row events               OR      p
+   <char>                                                <char>  <int>           <char> <char>
+  Table 2                                        Any transition    184 1.85 (1.53-2.23)  <.001
+  Table 2                               No visible using friend     74 2.00 (1.55-2.58)  <.001
+  Table 2                   Low-threshold transition (E <= 25%)    115 1.85 (1.47-2.33)  <.001
+  Table 2                   High-threshold transition (E > 25%)     69 1.79 (1.32-2.42)  <.001
+ Table 3A               Social media, model without interaction    184 1.79 (1.48-2.17)  <.001
+ Table 3A High vs. low peer exposure, model without interaction     NA 3.07 (2.18-4.33)  <.001
+ Table 3A          Social media effect at low exposure (<= 25%)     NA 1.96 (1.56-2.47)  <.001
+ Table 3A          Social media effect at high exposure (> 25%)     NA 1.50 (1.10-2.05)  0.011
+ Table 3A                          Social media x high exposure     NA 0.76 (0.52-1.12)  0.167
+ Table 3B                               Social media (additive)    184 1.76 (1.44-2.15)  <.001
+ Table 3B                   Peer exposure per +25 pp (additive)     NA 2.43 (2.03-2.90)  <.001
+ Table 3B               Social media effect at 0% peer exposure     NA 2.03 (1.57-2.62)  <.001
+ Table 3B              Social media effect at 50% peer exposure     NA 1.42 (1.06-1.91)  0.020
+ Table 3B                     Social media x peers (per +25 pp)     NA 0.84 (0.69-1.02)  0.078
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)     NA 1.43 (0.96-2.12)  0.078
+ Table 3B                             R, bootstrap 95% CI and p     NA 1.43 (0.93-2.16)  0.106
+   Sample                          Student-semesters (students)     NA   10,676 (3,126)       
+   Sample              Named friends whose use was estimated, %     NA             41.7       
+
+==============================================================================
+Past-six-month use (secondary) | SM t-1 / network t-1 (manuscript)
+==============================================================================
+    table                                                   row events               OR      p
+   <char>                                                <char>  <int>           <char> <char>
+  Table 2                                        Any transition    272 1.46 (1.23-1.74)  <.001
+  Table 2                               No visible using friend    156 1.43 (1.14-1.79)  0.002
+  Table 2                   Low-threshold transition (E <= 25%)    224 1.37 (1.13-1.67)  0.002
+  Table 2                   High-threshold transition (E > 25%)     48 1.89 (1.41-2.54)  <.001
+ Table 3A               Social media, model without interaction    272 1.43 (1.21-1.70)  <.001
+ Table 3A High vs. low peer exposure, model without interaction     NA 1.86 (1.30-2.67)  <.001
+ Table 3A          Social media effect at low exposure (<= 25%)     NA 1.45 (1.19-1.76)  <.001
+ Table 3A          Social media effect at high exposure (> 25%)     NA 1.37 (0.96-1.97)  0.083
+ Table 3A                          Social media x high exposure     NA 0.95 (0.63-1.43)  0.801
+ Table 3B                               Social media (additive)    272 1.42 (1.19-1.69)  <.001
+ Table 3B                   Peer exposure per +25 pp (additive)     NA 1.60 (1.33-1.94)  <.001
+ Table 3B               Social media effect at 0% peer exposure     NA 1.55 (1.27-1.90)  <.001
+ Table 3B              Social media effect at 50% peer exposure     NA 1.10 (0.76-1.58)  0.611
+ Table 3B                     Social media x peers (per +25 pp)     NA 0.84 (0.68-1.04)  0.118
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)     NA 1.41 (0.92-2.18)  0.118
+ Table 3B                             R, bootstrap 95% CI and p     NA 1.41 (0.92-2.30)  0.134
+   Sample                          Student-semesters (students)     NA    8,758 (2,819)       
+   Sample              Named friends whose use was estimated, %     NA             41.5       
+
+==============================================================================
+Past-six-month use (secondary) | SM t / network t-1
+==============================================================================
+    table                                                   row events               OR      p
+   <char>                                                <char>  <int>           <char> <char>
+  Table 2                                        Any transition    317 1.61 (1.37-1.90)  <.001
+  Table 2                               No visible using friend    181 1.36 (1.09-1.70)  0.006
+  Table 2                   Low-threshold transition (E <= 25%)    264 1.60 (1.34-1.92)  <.001
+  Table 2                   High-threshold transition (E > 25%)     53 1.65 (1.21-2.27)  0.002
+ Table 3A               Social media, model without interaction    317 1.60 (1.35-1.89)  <.001
+ Table 3A High vs. low peer exposure, model without interaction     NA 2.17 (1.55-3.04)  <.001
+ Table 3A          Social media effect at low exposure (<= 25%)     NA 1.65 (1.38-1.97)  <.001
+ Table 3A          Social media effect at high exposure (> 25%)     NA 1.32 (0.89-1.95)  0.167
+ Table 3A                          Social media x high exposure     NA 0.80 (0.52-1.22)  0.301
+ Table 3B                               Social media (additive)    317 1.58 (1.34-1.87)  <.001
+ Table 3B                   Peer exposure per +25 pp (additive)     NA 1.81 (1.50-2.19)  <.001
+ Table 3B               Social media effect at 0% peer exposure     NA 1.68 (1.38-2.04)  <.001
+ Table 3B              Social media effect at 50% peer exposure     NA 1.29 (0.87-1.90)  0.202
+ Table 3B                     Social media x peers (per +25 pp)     NA 0.88 (0.70-1.10)  0.256
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)     NA 1.30 (0.82-2.06)  0.256
+ Table 3B                             R, bootstrap 95% CI and p     NA 1.30 (0.82-2.13)  0.256
+   Sample                          Student-semesters (students)     NA   10,221 (3,047)       
+   Sample              Named friends whose use was estimated, %     NA             41.7       
+
+==============================================================================
+Past-six-month use (secondary) | SM t-1 / network t
+==============================================================================
+    table                                                   row events               OR      p
+   <char>                                                <char>  <int>           <char> <char>
+  Table 2                                        Any transition    272 1.46 (1.23-1.74)  <.001
+  Table 2                               No visible using friend    137 1.41 (1.11-1.77)  0.004
+  Table 2                   Low-threshold transition (E <= 25%)    185 1.40 (1.14-1.74)  0.002
+  Table 2                   High-threshold transition (E > 25%)     87 1.55 (1.20-2.02)  <.001
+ Table 3A               Social media, model without interaction    272 1.41 (1.18-1.68)  <.001
+ Table 3A High vs. low peer exposure, model without interaction     NA 2.65 (1.97-3.57)  <.001
+ Table 3A          Social media effect at low exposure (<= 25%)     NA 1.50 (1.22-1.86)  <.001
+ Table 3A          Social media effect at high exposure (> 25%)     NA 1.23 (0.92-1.64)  0.172
+ Table 3A                          Social media x high exposure     NA 0.81 (0.57-1.16)  0.257
+ Table 3B                               Social media (additive)    272 1.40 (1.17-1.67)  <.001
+ Table 3B                   Peer exposure per +25 pp (additive)     NA 1.94 (1.64-2.29)  <.001
+ Table 3B               Social media effect at 0% peer exposure     NA 1.54 (1.22-1.95)  <.001
+ Table 3B              Social media effect at 50% peer exposure     NA 1.20 (0.87-1.65)  0.264
+ Table 3B                     Social media x peers (per +25 pp)     NA 0.88 (0.71-1.09)  0.250
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)     NA 1.29 (0.84-1.97)  0.250
+ Table 3B                             R, bootstrap 95% CI and p     NA 1.29 (0.82-2.00)  0.270
+   Sample                          Student-semesters (students)     NA    8,758 (2,819)       
+   Sample              Named friends whose use was estimated, %     NA             41.5       
+
+==============================================================================
+Past-six-month use (secondary) | SM t / network t
+==============================================================================
+    table                                                   row events               OR      p
+   <char>                                                <char>  <int>           <char> <char>
+  Table 2                                        Any transition    317 1.62 (1.37-1.90)  <.001
+  Table 2                               No visible using friend    149 1.63 (1.32-2.00)  <.001
+  Table 2                   Low-threshold transition (E <= 25%)    219 1.61 (1.33-1.95)  <.001
+  Table 2                   High-threshold transition (E > 25%)     98 1.60 (1.21-2.11)  <.001
+ Table 3A               Social media, model without interaction    317 1.57 (1.33-1.86)  <.001
+ Table 3A High vs. low peer exposure, model without interaction     NA 2.71 (2.05-3.59)  <.001
+ Table 3A          Social media effect at low exposure (<= 25%)     NA 1.69 (1.40-2.04)  <.001
+ Table 3A          Social media effect at high exposure (> 25%)     NA 1.31 (0.95-1.80)  0.096
+ Table 3A                          Social media x high exposure     NA 0.77 (0.54-1.12)  0.170
+ Table 3B                               Social media (additive)    317 1.56 (1.31-1.85)  <.001
+ Table 3B                   Peer exposure per +25 pp (additive)     NA 2.11 (1.81-2.47)  <.001
+ Table 3B               Social media effect at 0% peer exposure     NA 1.78 (1.45-2.19)  <.001
+ Table 3B              Social media effect at 50% peer exposure     NA 1.20 (0.88-1.64)  0.253
+ Table 3B                     Social media x peers (per +25 pp)     NA 0.82 (0.68-1.00)  0.047
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)     NA 1.48 (1.01-2.19)  0.047
+ Table 3B                             R, bootstrap 95% CI and p     NA 1.48 (0.99-2.30)  0.058
+   Sample                          Student-semesters (students)     NA   10,221 (3,047)       
+   Sample              Named friends whose use was estimated, %     NA             41.7       
+
+==============================================================================
+5. Summary (AOR (95% CI), p; events in brackets for Table 2)
+==============================================================================
+
+Past-30-day use (primary)
+    table                                                   row SM t-1 / network t-1 (manuscript)             SM t / network t-1             SM t-1 / network t               SM t / network t
+   <char>                                                <char>                            <char>                         <char>                         <char>                         <char>
+  Table 2                                        Any transition    [135] 1.87 (1.53-2.30) p=<.001 [184] 1.85 (1.53-2.23) p=<.001 [135] 1.87 (1.53-2.30) p=<.001 [184] 1.85 (1.53-2.23) p=<.001
+  Table 2                               No visible using friend     [73] 1.95 (1.49-2.55) p=<.001  [97] 1.74 (1.36-2.23) p=<.001  [62] 1.57 (1.15-2.13) p=0.004  [74] 2.00 (1.55-2.58) p=<.001
+  Table 2                   Low-threshold transition (E <= 25%)     [97] 1.81 (1.43-2.31) p=<.001 [138] 1.92 (1.56-2.37) p=<.001  [85] 1.77 (1.37-2.30) p=<.001 [115] 1.85 (1.47-2.33) p=<.001
+  Table 2                   High-threshold transition (E > 25%)     [38] 2.02 (1.41-2.88) p=<.001  [46] 1.54 (1.06-2.22) p=0.022  [50] 1.99 (1.43-2.76) p=<.001  [69] 1.79 (1.32-2.42) p=<.001
+ Table 3A               Social media, model without interaction    [135] 1.80 (1.46-2.22) p=<.001 [184] 1.82 (1.51-2.21) p=<.001 [135] 1.80 (1.46-2.22) p=<.001 [184] 1.79 (1.48-2.17) p=<.001
+ Table 3A High vs. low peer exposure, model without interaction          2.59 (1.67-4.03) p=<.001       3.03 (2.04-4.50) p=<.001       2.61 (1.76-3.87) p=<.001       3.07 (2.18-4.33) p=<.001
+ Table 3A          Social media effect at low exposure (<= 25%)          1.96 (1.54-2.48) p=<.001       1.98 (1.61-2.43) p=<.001       1.95 (1.52-2.51) p=<.001       1.96 (1.56-2.47) p=<.001
+ Table 3A          Social media effect at high exposure (> 25%)          1.43 (0.95-2.15) p=0.084       1.30 (0.86-1.99) p=0.216       1.55 (1.09-2.19) p=0.014       1.50 (1.10-2.05) p=0.011
+ Table 3A                          Social media x high exposure          0.73 (0.46-1.17) p=0.194       0.66 (0.41-1.05) p=0.080       0.79 (0.52-1.22) p=0.287       0.76 (0.52-1.12) p=0.167
+ Table 3B                               Social media (additive)    [135] 1.77 (1.43-2.19) p=<.001 [184] 1.80 (1.49-2.18) p=<.001 [135] 1.77 (1.43-2.19) p=<.001 [184] 1.76 (1.44-2.15) p=<.001
+ Table 3B                   Peer exposure per +25 pp (additive)          1.92 (1.52-2.42) p=<.001       2.24 (1.81-2.79) p=<.001       1.96 (1.61-2.39) p=<.001       2.43 (2.03-2.90) p=<.001
+ Table 3B               Social media effect at 0% peer exposure          2.11 (1.66-2.68) p=<.001       1.86 (1.46-2.35) p=<.001       2.01 (1.54-2.61) p=<.001       2.03 (1.57-2.62) p=<.001
+ Table 3B              Social media effect at 50% peer exposure          1.22 (0.83-1.81) p=0.311       1.67 (1.14-2.44) p=0.008       1.49 (1.07-2.07) p=0.020       1.42 (1.06-1.91) p=0.020
+ Table 3B                     Social media x peers (per +25 pp)          0.76 (0.61-0.96) p=0.020       0.95 (0.75-1.20) p=0.655       0.86 (0.70-1.07) p=0.168       0.84 (0.69-1.02) p=0.078
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)          1.72 (1.09-2.73) p=0.020       1.11 (0.70-1.78) p=0.655       1.35 (0.88-2.07) p=0.168       1.43 (0.96-2.12) p=0.078
+ Table 3B                             R, bootstrap 95% CI and p          1.72 (1.04-2.86) p=0.038       1.11 (0.64-1.85) p=0.712       1.35 (0.84-2.13) p=0.204       1.43 (0.93-2.16) p=0.106
+   Sample                          Student-semesters (students)                    9,174 (2,906)                 10,676 (3,126)                  9,174 (2,906)                 10,676 (3,126) 
+   Sample              Named friends whose use was estimated, %                             41.5                           41.7                           41.4                           41.7 
+
+Past-six-month use (secondary)
+    table                                                   row SM t-1 / network t-1 (manuscript)             SM t / network t-1             SM t-1 / network t               SM t / network t
+   <char>                                                <char>                            <char>                         <char>                         <char>                         <char>
+  Table 2                                        Any transition    [272] 1.46 (1.23-1.74) p=<.001 [317] 1.61 (1.37-1.90) p=<.001 [272] 1.46 (1.23-1.74) p=<.001 [317] 1.62 (1.37-1.90) p=<.001
+  Table 2                               No visible using friend    [156] 1.43 (1.14-1.79) p=0.002 [181] 1.36 (1.09-1.70) p=0.006 [137] 1.41 (1.11-1.77) p=0.004 [149] 1.63 (1.32-2.00) p=<.001
+  Table 2                   Low-threshold transition (E <= 25%)    [224] 1.37 (1.13-1.67) p=0.002 [264] 1.60 (1.34-1.92) p=<.001 [185] 1.40 (1.14-1.74) p=0.002 [219] 1.61 (1.33-1.95) p=<.001
+  Table 2                   High-threshold transition (E > 25%)     [48] 1.89 (1.41-2.54) p=<.001  [53] 1.65 (1.21-2.27) p=0.002  [87] 1.55 (1.20-2.02) p=<.001  [98] 1.60 (1.21-2.11) p=<.001
+ Table 3A               Social media, model without interaction    [272] 1.43 (1.21-1.70) p=<.001 [317] 1.60 (1.35-1.89) p=<.001 [272] 1.41 (1.18-1.68) p=<.001 [317] 1.57 (1.33-1.86) p=<.001
+ Table 3A High vs. low peer exposure, model without interaction          1.86 (1.30-2.67) p=<.001       2.17 (1.55-3.04) p=<.001       2.65 (1.97-3.57) p=<.001       2.71 (2.05-3.59) p=<.001
+ Table 3A          Social media effect at low exposure (<= 25%)          1.45 (1.19-1.76) p=<.001       1.65 (1.38-1.97) p=<.001       1.50 (1.22-1.86) p=<.001       1.69 (1.40-2.04) p=<.001
+ Table 3A          Social media effect at high exposure (> 25%)          1.37 (0.96-1.97) p=0.083       1.32 (0.89-1.95) p=0.167       1.23 (0.92-1.64) p=0.172       1.31 (0.95-1.80) p=0.096
+ Table 3A                          Social media x high exposure          0.95 (0.63-1.43) p=0.801       0.80 (0.52-1.22) p=0.301       0.81 (0.57-1.16) p=0.257       0.77 (0.54-1.12) p=0.170
+ Table 3B                               Social media (additive)    [272] 1.42 (1.19-1.69) p=<.001 [317] 1.58 (1.34-1.87) p=<.001 [272] 1.40 (1.17-1.67) p=<.001 [317] 1.56 (1.31-1.85) p=<.001
+ Table 3B                   Peer exposure per +25 pp (additive)          1.60 (1.33-1.94) p=<.001       1.81 (1.50-2.19) p=<.001       1.94 (1.64-2.29) p=<.001       2.11 (1.81-2.47) p=<.001
+ Table 3B               Social media effect at 0% peer exposure          1.55 (1.27-1.90) p=<.001       1.68 (1.38-2.04) p=<.001       1.54 (1.22-1.95) p=<.001       1.78 (1.45-2.19) p=<.001
+ Table 3B              Social media effect at 50% peer exposure          1.10 (0.76-1.58) p=0.611       1.29 (0.87-1.90) p=0.202       1.20 (0.87-1.65) p=0.264       1.20 (0.88-1.64) p=0.253
+ Table 3B                     Social media x peers (per +25 pp)          0.84 (0.68-1.04) p=0.118       0.88 (0.70-1.10) p=0.256       0.88 (0.71-1.09) p=0.250       0.82 (0.68-1.00) p=0.047
+ Table 3B                       R = OR at 0% / OR at 50% (Wald)          1.41 (0.92-2.18) p=0.118       1.30 (0.82-2.06) p=0.256       1.29 (0.84-1.97) p=0.250       1.48 (1.01-2.19) p=0.047
+ Table 3B                             R, bootstrap 95% CI and p          1.41 (0.92-2.30) p=0.134       1.30 (0.82-2.13) p=0.256       1.29 (0.82-2.00) p=0.270       1.48 (0.99-2.30) p=0.058
+   Sample                          Student-semesters (students)                    8,758 (2,819)                 10,221 (3,047)                  8,758 (2,819)                 10,221 (3,047) 
+   Sample              Named friends whose use was estimated, %                             41.5                           41.7                           41.5                           41.7 
+
+Outputs written to <repo>/outputs_261023/07_contemporaneous_20261120_173628
+
+End time: 2026-11-20 17:38:36.918671 (2.1 minutes)

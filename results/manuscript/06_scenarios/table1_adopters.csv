@@ -1,0 +1,69 @@
+outcome,group,characteristic,value
+A4,Low threshold (E <= 25%),"Starts, n (%)",97 (71.9%)
+A4,Low threshold (E <= 25%),"Cohort 2, %",29.9
+A4,Low threshold (E <= 25%),"Female, %",70.1
+A4,Low threshold (E <= 25%),"Sexual minority, %",36.1
+A4,Low threshold (E <= 25%),"Asian, %",24.7
+A4,Low threshold (E <= 25%),"Hispanic/Latine, %",60.8
+A4,Low threshold (E <= 25%),"Parent education, mean (SD)",4.38 (1.19)
+A4,Low threshold (E <= 25%),"Depressive symptoms (MDD), mean (SD)",1.24 (0.85)
+A4,Low threshold (E <= 25%),"Out-degree, mean (SD)",2.61 (1.92)
+A4,Low threshold (E <= 25%),"In-degree, mean (SD)",2.52 (2.16)
+A4,Low threshold (E <= 25%),"Lagged social media (S3), mean (SD)",1.62 (0.66)
+A4,Low threshold (E <= 25%),"Started in GS3, %",3.1
+A4,Low threshold (E <= 25%),"Started in GS4, %",9.3
+A4,Low threshold (E <= 25%),"Started in GS5, %",38.1
+A4,Low threshold (E <= 25%),"Started in GS6, %",26.8
+A4,Low threshold (E <= 25%),"Started in GS7, %",15.5
+A4,Low threshold (E <= 25%),"Started in GS8, %",7.2
+A4,High threshold (E > 25%),"Starts, n (%)",38 (28.1%)
+A4,High threshold (E > 25%),"Cohort 2, %",23.7
+A4,High threshold (E > 25%),"Female, %",68.4
+A4,High threshold (E > 25%),"Sexual minority, %",36.8
+A4,High threshold (E > 25%),"Asian, %",10.5
+A4,High threshold (E > 25%),"Hispanic/Latine, %",68.4
+A4,High threshold (E > 25%),"Parent education, mean (SD)",4.68 (1.16)
+A4,High threshold (E > 25%),"Depressive symptoms (MDD), mean (SD)",1.07 (0.79)
+A4,High threshold (E > 25%),"Out-degree, mean (SD)",3.50 (1.94)
+A4,High threshold (E > 25%),"In-degree, mean (SD)",3.50 (2.31)
+A4,High threshold (E > 25%),"Lagged social media (S3), mean (SD)",1.63 (0.64)
+A4,High threshold (E > 25%),"Started in GS3, %",0.0
+A4,High threshold (E > 25%),"Started in GS4, %",5.3
+A4,High threshold (E > 25%),"Started in GS5, %",18.4
+A4,High threshold (E > 25%),"Started in GS6, %",31.6
+A4,High threshold (E > 25%),"Started in GS7, %",31.6
+A4,High threshold (E > 25%),"Started in GS8, %",13.2
+A3,Low threshold (E <= 25%),"Starts, n (%)",224 (82.4%)
+A3,Low threshold (E <= 25%),"Cohort 2, %",34.4
+A3,Low threshold (E <= 25%),"Female, %",62.5
+A3,Low threshold (E <= 25%),"Sexual minority, %",33.5
+A3,Low threshold (E <= 25%),"Asian, %",37.5
+A3,Low threshold (E <= 25%),"Hispanic/Latine, %",45.5
+A3,Low threshold (E <= 25%),"Parent education, mean (SD)",4.40 (1.30)
+A3,Low threshold (E <= 25%),"Depressive symptoms (MDD), mean (SD)",1.06 (0.79)
+A3,Low threshold (E <= 25%),"Out-degree, mean (SD)",2.93 (1.87)
+A3,Low threshold (E <= 25%),"In-degree, mean (SD)",2.80 (2.13)
+A3,Low threshold (E <= 25%),"Lagged social media (S3), mean (SD)",1.44 (0.57)
+A3,Low threshold (E <= 25%),"Started in GS3, %",4.9
+A3,Low threshold (E <= 25%),"Started in GS4, %",15.2
+A3,Low threshold (E <= 25%),"Started in GS5, %",26.3
+A3,Low threshold (E <= 25%),"Started in GS6, %",29.0
+A3,Low threshold (E <= 25%),"Started in GS7, %",17.9
+A3,Low threshold (E <= 25%),"Started in GS8, %",6.7
+A3,High threshold (E > 25%),"Starts, n (%)",48 (17.6%)
+A3,High threshold (E > 25%),"Cohort 2, %",33.3
+A3,High threshold (E > 25%),"Female, %",68.8
+A3,High threshold (E > 25%),"Sexual minority, %",31.2
+A3,High threshold (E > 25%),"Asian, %",16.7
+A3,High threshold (E > 25%),"Hispanic/Latine, %",60.4
+A3,High threshold (E > 25%),"Parent education, mean (SD)",4.65 (1.26)
+A3,High threshold (E > 25%),"Depressive symptoms (MDD), mean (SD)",0.92 (0.66)
+A3,High threshold (E > 25%),"Out-degree, mean (SD)",3.56 (1.76)
+A3,High threshold (E > 25%),"In-degree, mean (SD)",3.29 (2.25)
+A3,High threshold (E > 25%),"Lagged social media (S3), mean (SD)",1.57 (0.59)
+A3,High threshold (E > 25%),"Started in GS3, %",0.0
+A3,High threshold (E > 25%),"Started in GS4, %",4.2
+A3,High threshold (E > 25%),"Started in GS5, %",22.9
+A3,High threshold (E > 25%),"Started in GS6, %",29.2
+A3,High threshold (E > 25%),"Started in GS7, %",25.0
+A3,High threshold (E > 25%),"Started in GS8, %",18.8

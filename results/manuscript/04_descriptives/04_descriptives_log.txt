@@ -1,7 +1,7 @@
 Script: 04_descriptives 
-Start time: 2026-10-23 14:09:58.542829 
+Start time: 2026-11-23 16:05:09.707528 
 Cores used: 8 
-Data: /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_data/ADVANCE_slim_v2.rds 
+Data: <repo>/Cleaned_Data/ADVANCE_slim_v2.rds 
 
 
 ==============================================================================
@@ -70,6 +70,20 @@ A4: E quantiles P25/P50/P75/P90 = 0.005/0.031/0.151/0.267; among starters = 0.02
  (2/7, 1/2]               677     27      7.4           3.99
    (1/2, 1]               136      4      1.5           2.94
 
-Outputs written to /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_out/04_descriptives_20261023_140958
+==============================================================================
+6. Sample flow and missing lagged social media
+==============================================================================
+A4: eligible on all other criteria 14,276 | missing lagged S3 5,102 (35.7%): not administered at t-1 3,714, fewer than 4 valid platforms 727, section not answered 661 | analytic 9,174
+A3: eligible on all other criteria 13,655 | missing lagged S3 4,897 (35.9%): not administered at t-1 3,622, fewer than 4 valid platforms 674, section not answered 601 | analytic 8,758
 
-End time: 2026-10-23 14:09:59.286972 (0.0 minutes)
+Named friends in the primary (A4) models:
+           type     N   pct
+         <char> <int> <num>
+        visible 27603  55.1
+ nonparticipant 17404  34.7
+          typed  3386   6.8
+      no_answer  1735   3.5
+
+Outputs written to <repo>/outputs_261023/04_descriptives_20261123_160509
+
+End time: 2026-11-23 16:05:10.525974 (0.0 minutes)

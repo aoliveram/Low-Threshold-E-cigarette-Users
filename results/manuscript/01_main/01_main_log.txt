@@ -1,7 +1,7 @@
 Script: 01_main 
-Start time: 2026-10-23 14:08:06.786704 
+Start time: 2026-11-23 16:05:46.557695 
 Cores used: 8 
-Data: /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_data/ADVANCE_slim_v2.rds 
+Data: <repo>/Cleaned_Data/ADVANCE_slim_v2.rds 
 
 
 ==============================================================================
@@ -111,6 +111,6 @@ media matters more for students whose friends do not vape.
       A4 2 of 7 friends had used                          1.87                       2.83           1.52                0.97
 S3 levels used (1 = never sees vaping posts ... 5 = several times a day): A3 typical = 1.00; A3 high = 2.00; A4 typical = 1.00; A4 high = 2.00
 
-Outputs written to /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_out/01_main_20261023_140806
+Outputs written to <repo>/outputs_261023/01_main_20261123_160546
 
-End time: 2026-10-23 14:08:35.779688 (0.5 minutes)
+End time: 2026-11-23 16:06:14.229284 (0.5 minutes)

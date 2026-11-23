@@ -1,7 +1,7 @@
 Script: 03_simulation 
-Start time: 2026-10-23 14:03:59.981422 
+Start time: 2026-11-23 16:06:28.734603 
 Cores used: 8 
-Data: /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_data/ADVANCE_slim_v2.rds 
+Data: <repo>/Cleaned_Data/ADVANCE_slim_v2.rds 
 
 
 ==============================================================================
@@ -10,7 +10,7 @@ Part A. Known-truth simulation (true R = 1.7, 160 data sets per outcome, 20 impu
  outcome                       method true_R mean_R coverage_95 power  sims
   <char>                       <char>  <num>  <num>       <num> <num> <int>
       A3 Expected value (recommended)    1.7   1.87        0.96  0.38   160
-      A3          Multiple imputation    1.7   1.60        0.98  0.18   160
+      A3          Multiple imputation    1.7   1.60        0.98  0.19   160
       A4 Expected value (recommended)    1.7   1.78        0.91  0.31   160
       A4          Multiple imputation    1.7   1.54        0.94  0.11   160
 Reading: the expected value recovers R (mean close to the truth, coverage close to 95%). Multiple imputation
@@ -34,6 +34,6 @@ Part B. Power (200 data sets per outcome and R)
       A3        269                     2674
       A4        131                     1538
 
-Outputs written to /Users/anibaloliveramorales/Desktop/Doctorado/-Projects-/Z - Network-Diffusion-Yuchan/playground/paneo/for-yuchan/test_out/03_simulation_20261023_140359
+Outputs written to <repo>/outputs_261023/03_simulation_20261123_160628
 
-End time: 2026-10-23 14:06:30.400867 (2.5 minutes)
+End time: 2026-11-23 16:08:56.70807 (2.5 minutes)

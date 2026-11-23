@@ -16,3 +16,17 @@ Exposure A3,"starts with E <= 1/4, %",82.4
 Exposure A3,"student-semesters with E = 0, %",22.1
 Exposure A4,"starts with E <= 1/4, %",71.9
 Exposure A4,"student-semesters with E = 0, %",21.8
+Sample flow A4,eligible on all criteria except social media,14276
+Sample flow A4,missing lagged social media,5102 (35.7%)
+Sample flow A4,"  items not administered at t-1 (W2, W3, W9)",3714
+Sample flow A4,  fewer than 4 valid platform scores,727
+Sample flow A4,  social media section not answered,661
+Sample flow A3,eligible on all criteria except social media,13655
+Sample flow A3,missing lagged social media,4897 (35.9%)
+Sample flow A3,"  items not administered at t-1 (W2, W3, W9)",3622
+Sample flow A3,  fewer than 4 valid platform scores,674
+Sample flow A3,  social media section not answered,601
+Named friends (A4 models),visible,"27,603 (55.1%)"
+Named friends (A4 models),nonparticipant,"17,404 (34.7%)"
+Named friends (A4 models),typed,"3,386 (6.8%)"
+Named friends (A4 models),no_answer,"1,735 (3.5%)"
